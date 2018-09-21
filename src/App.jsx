@@ -4,6 +4,7 @@ import Navbar from './nav/Navbar';
 import Landing from './landing/Landing';
 import About from './about/About';
 import Tracks from './tracks/Tracks';
+import Schedule from './schedule/Schedule';
 import FAQs from './faqs/FAQs';
 import Sponsors from './sponsors/Sponsors';
 import Footer from './footer/Footer';
@@ -24,8 +25,14 @@ const sections = [
     {
         title: 'Tracks',
         id: 'tracks',
-        titleColor: '#5f76cb',
+        titleColor: '#5c5299',
         Component: Tracks
+    },
+    {
+        title: 'Schedule',
+        id: 'schedule',
+        titleColor: '#5f76cb',
+        Component: Schedule
     },
     {
         title: 'FAQs',

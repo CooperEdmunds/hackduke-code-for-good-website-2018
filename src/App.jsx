@@ -25,13 +25,13 @@ const sections = [
     {
         title: 'Tracks',
         id: 'tracks',
-        titleColor: '#5c5299',
+        titleColor: '#5f76cb',
         Component: Tracks
     },
     {
         title: 'Schedule',
         id: 'schedule',
-        titleColor: '#5f76cb',
+        titleColor: '#A94A64',
         Component: Schedule
     },
     {
